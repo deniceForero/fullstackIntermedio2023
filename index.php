@@ -12,6 +12,9 @@
             integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
             crossorigin="anonymous"
             referrerpolicy="no-referrer" />
+        <!-- cdn swetalert2 para la alerta de envío ticket-->
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
         <link rel="stylesheet" href="css/style.css" />
         <link rel="icon" href="css/img/icon.png" />
         <title>Help Desk</title>
@@ -120,7 +123,7 @@
 
         <section id="contacto" class="formulario container">
 
-            <form method="post" autocomplete="off">
+            <form action="back/registro.php" method="post" autocomplete="off">
 
                 <h2>Envía Tú Ticket</h2>
 
@@ -153,7 +156,7 @@
                         type="submit"
                         name="enviar"
                         class="btn"
-                        onclick="myFunction()" />
+                        value="Enviar" />
                 </div>
             </form>
         </section>
@@ -185,11 +188,10 @@
         include("./back/registro.php");
 
         ?>
-
-        <script src="scripts_js/scripts.js"></script>
-        <!-- Import the component -->
-        <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.3.0/model-viewer.min.js"></script>
-    
-    
+    <!-- Scrip para la alerta de envío ticket-->
+    <script>
+      Swal.fire('Tú ticket se envió correctamente!')
+    </script>
+            
     </body>
 </html>

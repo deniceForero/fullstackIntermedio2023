@@ -1,0 +1,41 @@
+
+h1{
+    font-size: 3rem;
+    text-align: center;
+    color:#AEB6BF;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+
+
+.contenido{
+
+    font-size: 2rem;
+    font-style: italic;
+    color: #A9DFBF;
+    text-align: center;
+}
+
+.form{
+
+    width: 50%;
+
+}
+
+.form label{
+
+    color:#AEB6BF;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.parrafo{
+
+    font-size: 3rem;
+    text-align: center;
+    color:#AEB6BF;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+

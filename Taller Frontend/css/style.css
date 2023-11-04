@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Poppins:wght@400;500;600;700;800;900&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+hr{
+    width: 80%;
+    margin:auto;
+    border: 1px solid gray;
+ }
+
+ section{
+
+    width: 80%;
+    height: auto;
+    margin: auto;
+ }
+
+ h2{
+    text-align: center;
+    font-size: 40PX;
+
+ }
+
+ .azul{
+    color: blue;
+  
+ }
+
+ .rojo{
+    color: red;
+    
+ }
+
+ .s1{
+    color: greenyellow;
+    text-decoration: underline;
+ }
+
+ .s2{
+    color: red;
+    font-weight: bold;
+ }
+
+ .s3{
+    text-decoration: underline overline;
+ }
+
+ .s4{
+    font-size: 30px;
+    font-weight: bold;
+ }
+
+ .s5{
+    color: blue;
+    font-weight: bold;
+    font-size: 20px;
+ }
+
+ .s6{
+    color: red;
+    font-weight: bold;
+    text-decoration: underline;
+ }
+
+.marca{
+    color: yellow;
+    font-size: 25px;
+    display: flex;
+    font-weight: bold;
+}
+
+.marca:hover{
+    color: royalblue;
+     font-size: 40px;
+    
+}
+
+.as{
+    font-size: 25px;
+    color: blueviolet;
+    font-weight: bold;
+}
+
+.as:hover{
+   color: aquamarine;
+   font-size: 40px;
+}
+.menu{
+    background-color: violet;
+   
+
+     }
+.menu a{
+    text-decoration: none;
+    font-size: 25px;
+    display: inline-flex;
+    padding: 20px;
+    color: #ffffff;
+    text-align: center;
+    margin-left: 15px;
+}
+
+.menu a:hover{
+    background-color: blue;
+    padding: 10px;
+}
+
+table{
+   background-color: yellow;
+   border: 1px dotted black;
+}
+
+th::first-letter{
+   font-weight: bold;
+}
+
+th{
+   color: red;
+   border: none;
+   font-style: italic;
+
+}
+
+td{
+   border: 1px dotted black;
+}
